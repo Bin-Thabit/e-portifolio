@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000512;
+}
+
+.page1 {
+    width: 100%;
+    height: 530px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding: 10px 5%;
+    justify-content: space-between;
+    background-color: #091721;
+    box-shadow: -4px 1px 10px -6px whitesmoke;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+ul {
+    display: flex;
+    margin: 5px 0;
+    list-style-type: none;
+}
+
+ul a {
+    color: white;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition-duration: .5s;
+}
+
+a:hover {
+    color: #0a75ad;
+}
+
+.section1 {
+    width: 100%;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    padding: 50px 5%;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(../images/ai.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.aboutMeFirst {
+    color: white;
+    padding: 20px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 0px solid white;
+    box-shadow: whitesmoke -1px 1px 12px 1px;
+}
+
+.section1 .aboutMeFirst {
+    height: 400px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.section1 .aboutMeFirst p {
+    text-align: justify;
+}
+
+.hi {
+    color: #0a75ad;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    color: #0a75ad;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.accounts {
+    /* background-color: red; */
+    width: 50%;
+    margin-top: 8px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.accounts a {
+    margin-right: 20px;
+    width: fit-content;
+}
+
+.accounts a img {
+    transition-duration: .5s;
+    width: 40px;
+    transition-delay: .2s;
+}
+
+.accounts a img:hover {
+    width: 50px;
+}
+
+.pic1 img {
+    width: 300px;
+    border-radius: 20%;
+}
+
+.cv {
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #0a75ad;
+    margin-top: 10px;
+    transition-duration: .5s;
+    transition-delay: .1s;
+}
+
+.cv:hover {
+    background-color: white;
+}
+
+.cvLink {
+    text-decoration: none;
+    color: white;
+    transition-duration: .5s;
+    transition-delay: .1s;
+}
+
+.page2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.page2-img {
+    width: 30%;
+}
+
+.page2-img img {
+    margin-top: 50px;
+    width: 100%;
+    height: 550px;
+    transition-duration: .5s;
+}
+
+.page2-img img:hover {
+    opacity: .8;
+}
+
+.aboutMeSecond {
+    width: 80%;
+    height: 600px;
+}
+
+.aboutMeSecond .topPage {
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.aboutMeSecond .topPage h1 {
+    font-size: 40px;
+    margin: 10px auto;
+    width: fit-content;
+    color: #0a75ad;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.aboutMeSecond .middle {
+    width: 100%;
+    height: 230px;
+    display: flex;
+}
+
+.aboutMeSecond .middle .details {
+    /* background-color:yellow; */
+    width: 50%;
+}
+
+.aboutMeSecond .middle .introduction {
+    border: 0px solid whitesmoke;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 50%;
+    padding: 20px;
+}
+
+.aboutMeSecond .introduction p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details .part1 div {
+    padding: 5px;
+
+}
+
+.details .part2 div {
+    padding: 5px;
+
+}
+
+.details .part1 p,
+.details .part2 p {
+    color: white;
+    margin-top: 20px;
+}
+
+.details .part1,
+.details .part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.details .part1 span,
+.details .part2 span {
+    color: #0a75ad;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.details .part2 {
+    margin-right: 40px;
+}
+
+.details .part1 div,
+.details .part2 div {
+    border-bottom: 1px solid white;
+}
+
+
+.aboutMeSecond .prog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 70px;
+}
+
+.aboutMeSecond .prog .porgramming-languages {
+    background-color: #091721;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px solid white;
+    box-shadow: whitesmoke -1px 1px 12px 1px;
+    transition-duration: .5s;
+    transition-delay: .2s;
+}
+
+.aboutMeSecond .prog .porgramming-languages:hover {
+    box-shadow: whitesmoke -1px 1px 20px 1px;
+}
+
+.aboutMeSecond .prog .porgramming-languages img {
+    width: 50px;
+}
